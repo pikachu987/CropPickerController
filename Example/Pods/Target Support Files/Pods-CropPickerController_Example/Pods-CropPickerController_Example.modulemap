@@ -1,0 +1,6 @@
+framework module Pods_CropPickerController_Example {
+  umbrella header "Pods-CropPickerController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

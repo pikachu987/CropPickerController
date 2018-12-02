@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h6M-S6-5qu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="CropPickerController_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ftc-Hc-2yR">
+                                <rect key="frame" x="0.0" y="124" width="375" height="543"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImageCell" rowHeight="146" id="Bqr-pU-VAv" customClass="ImageCell" customModule="CropPickerController_Example" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="146"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bqr-pU-VAv" id="4mK-0J-j7F">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="145.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pdb-7b-Qbk">
+                                                    <rect key="frame" x="0.0" y="5" width="375" height="140.5"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Pdb-7b-Qbk" firstAttribute="leading" secondItem="4mK-0J-j7F" secondAttribute="leading" id="17V-ao-Mgl"/>
+                                                <constraint firstAttribute="bottom" secondItem="Pdb-7b-Qbk" secondAttribute="bottom" id="Kiz-eV-kzv"/>
+                                                <constraint firstItem="Pdb-7b-Qbk" firstAttribute="top" secondItem="4mK-0J-j7F" secondAttribute="top" constant="5" id="Lzv-A5-eQt"/>
+                                                <constraint firstAttribute="trailing" secondItem="Pdb-7b-Qbk" secondAttribute="trailing" id="mxi-wW-DEn"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cropImageView" destination="Pdb-7b-Qbk" id="pwN-3U-JyN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="9hc-vL-B5R"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="myN-kO-IKd"/>
+                                </connections>
+                            </tableView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mYx-1J-eNt">
+                                <rect key="frame" x="0.0" y="64" width="375" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="15Q-Kw-LNu"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FFc-ee-ZrA">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TitleCell" id="wgn-es-Wt9" customClass="TitleCell" customModule="CropPickerController_Example" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="5" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysW-Jc-Tae">
+                                                    <rect key="frame" x="0.0" y="14.5" width="50" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="ysW-Jc-Tae" secondAttribute="trailing" id="EO1-6L-D8d"/>
+                                            <constraint firstItem="ysW-Jc-Tae" firstAttribute="leading" secondItem="wgn-es-Wt9" secondAttribute="leading" id="JmT-1c-KMj"/>
+                                            <constraint firstItem="ysW-Jc-Tae" firstAttribute="centerY" secondItem="wgn-es-Wt9" secondAttribute="centerY" id="lRX-8u-O1f"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="ysW-Jc-Tae" id="v6R-Ae-30P"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="Tn1-RL-aaS"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="r6d-63-9kf"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mYx-1J-eNt" secondAttribute="trailing" id="2de-IE-5Sn"/>
+                            <constraint firstAttribute="bottom" secondItem="ftc-Hc-2yR" secondAttribute="bottom" id="VqV-Ds-mlm"/>
+                            <constraint firstAttribute="trailing" secondItem="ftc-Hc-2yR" secondAttribute="trailing" id="Xty-xf-VfT"/>
+                            <constraint firstItem="mYx-1J-eNt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Ycf-1R-SCz"/>
+                            <constraint firstItem="mYx-1J-eNt" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="ZqT-Rq-hHZ"/>
+                            <constraint firstItem="ftc-Hc-2yR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="sHF-fT-7rB"/>
+                            <constraint firstItem="ftc-Hc-2yR" firstAttribute="top" secondItem="mYx-1J-eNt" secondAttribute="bottom" id="y3R-yi-RKp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hci-Wj-rzx"/>
+                    <connections>
+                        <outlet property="collectionView" destination="mYx-1J-eNt" id="qbj-Cv-G1T"/>
+                        <outlet property="tableView" destination="ftc-Hc-2yR" id="54m-gu-aSA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="133.5832083958021"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7XN-G3-UrW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="h6M-S6-5qu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HJs-ze-t9f">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="kGd-5T-Bgr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o2f-at-TWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="-564.46776611694156"/>
+        </scene>
+    </scenes>
+</document>
