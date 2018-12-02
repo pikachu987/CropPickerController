@@ -24,13 +24,20 @@ import Photos
 class PermissionHelper: NSObject {
     private override init() { }
     
+    static var permissionGalleryDeniedTitle: String? = "Permission Error"
+    static var permissionGalleryDeniedMessage: String? = "Please allow photo albums permission"
+    static var permissionCameraDeniedTitle: String? = "Permission Error"
+    static var permissionCameraDeniedMessage: String? = "Please allow camera albums permission"
+    static var permissionActionCancelTitle: String? = "Cancel"
+    static var permissionActionMoveTitle: String? = "Move"
+    
     // Gallery Permission
     static func galleryPermission(_ handler: @escaping ((UIAlertController?) -> Void)) {
         DispatchQueue.main.async {
             if PHPhotoLibrary.authorizationStatus() == .authorized {
                 handler(nil)
             } else if PHPhotoLibrary.authorizationStatus() == .denied {
-                handler(self.deniedAlertController("", message: ""))
+                handler(self.deniedAlertController(self.permissionGalleryDeniedTitle, message: self.permissionGalleryDeniedMessage))
             } else {
                 PHPhotoLibrary.requestAuthorization() { (status) in
                     switch status {
@@ -38,7 +45,7 @@ class PermissionHelper: NSObject {
                         handler(nil)
                         break
                     default:
-                        handler(self.deniedAlertController("", message: ""))
+                        handler(self.deniedAlertController(self.permissionGalleryDeniedTitle, message: self.permissionGalleryDeniedMessage))
                     }
                 }
             }
@@ -52,13 +59,13 @@ class PermissionHelper: NSObject {
             if AVCaptureDevice.authorizationStatus(for: AVMediaType.video) == .authorized {
                 handler(nil)
             } else if AVCaptureDevice.authorizationStatus(for: AVMediaType.video) == .denied {
-                handler(self.deniedAlertController("", message: ""))
+                handler(self.deniedAlertController(self.permissionCameraDeniedTitle, message: self.permissionCameraDeniedMessage))
             } else {
                 AVCaptureDevice.requestAccess(for: AVMediaType.video) { (isAccess) in
                     if isAccess{
                         handler(nil)
                     } else {
-                        handler(self.deniedAlertController("", message: ""))
+                        handler(self.deniedAlertController(self.permissionCameraDeniedTitle, message: self.permissionCameraDeniedMessage))
                     }
                 }
             }
@@ -66,10 +73,10 @@ class PermissionHelper: NSObject {
     }
     
     // Denied
-    private static func deniedAlertController(_ title: String, message: String) -> UIAlertController {
+    private static func deniedAlertController(_ title: String?, message: String?) -> UIAlertController {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "", style: .cancel, handler: nil))
-        alertController.addAction(UIAlertAction(title: "", style: .default, handler: { (_) in
+        alertController.addAction(UIAlertAction(title: self.permissionActionCancelTitle, style: .cancel, handler: nil))
+        alertController.addAction(UIAlertAction(title: self.permissionActionMoveTitle, style: .default, handler: { (_) in
             self.openSetting()
         }))
         return alertController

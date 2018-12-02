@@ -109,6 +109,19 @@ cropPickerController.scrollMaximumZoomScale = 12
 
 ```
 
+text
+
+```Swift
+
+cropPickerController.permissionGalleryDeniedTitle = "Denied"
+cropPickerController.permissionGalleryDeniedMessage = "Denied Gallery"
+cropPickerController.permissionCameraDeniedTitle = "Denied"
+cropPickerController.permissionCameraDeniedMessage = "Denied Camera"
+cropPickerController.permissionActionMoveTitle = "Move~"
+cropPickerController.permissionActionCancelTitle = "Cancel!"
+
+```
+
 ### Selector
 
 Back and Crop

@@ -227,6 +227,67 @@ public class CropPickerController: UIViewController {
         }
     }
     
+    // Permission Gallery Denied Title
+    public var permissionGalleryDeniedTitle: String? {
+        get {
+            return PermissionHelper.permissionGalleryDeniedTitle
+        }
+        set {
+            PermissionHelper.permissionGalleryDeniedTitle = newValue
+        }
+    }
+    
+    // Permission Gallery Denied Message
+    public var permissionGalleryDeniedMessage: String? {
+        get {
+            return PermissionHelper.permissionGalleryDeniedMessage
+        }
+        set {
+            PermissionHelper.permissionGalleryDeniedMessage = newValue
+        }
+    }
+    
+    // Permission Camera Denied Title
+    public var permissionCameraDeniedTitle: String? {
+        get {
+            return PermissionHelper.permissionCameraDeniedTitle
+        }
+        set {
+            PermissionHelper.permissionCameraDeniedTitle = newValue
+        }
+    }
+    
+    // Permission Camera Denied Message
+    public var permissionCameraDeniedMessage: String? {
+        get {
+            return PermissionHelper.permissionCameraDeniedMessage
+        }
+        set {
+            PermissionHelper.permissionCameraDeniedMessage = newValue
+        }
+    }
+    
+    // Permission Action Cancel Title
+    public var permissionActionCancelTitle: String? {
+        get {
+            return PermissionHelper.permissionActionCancelTitle
+        }
+        set {
+            PermissionHelper.permissionActionCancelTitle = newValue
+        }
+    }
+    
+    // Permission Action Move Title
+    public var permissionActionMoveTitle: String? {
+        get {
+            return PermissionHelper.permissionActionMoveTitle
+        }
+        set {
+            PermissionHelper.permissionActionMoveTitle = newValue
+        }
+    }
+    
+    
     // MARK: Private Property
     
     // Picker Type

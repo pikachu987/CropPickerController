@@ -73,19 +73,25 @@ class ViewController: UIViewController {
 //        cropPickerController.selectBoxLayerColor = .gray
 //        cropPickerController.selectBoxBackgroundColor = .gray
 //
-//        
+//        cropPickerController.permissionGalleryDeniedTitle = "Denied"
+//        cropPickerController.permissionGalleryDeniedMessage = "Denied Gallery"
+//        cropPickerController.permissionCameraDeniedTitle = "Denied"
+//        cropPickerController.permissionCameraDeniedMessage = "Denied Camera"
+//        cropPickerController.permissionActionMoveTitle = "Move~"
+//        cropPickerController.permissionActionCancelTitle = "Cancel!"
+//
 //        cropPickerController.progressTextColor = .black
 //        cropPickerController.progressColor = .red
 //        cropPickerController.progressTintColor = .blue
 //        cropPickerController.progressBackgroundColor = .white
-//        
+//
 //        cropPickerController.cropLineColor = .blue
 //        cropPickerController.imageBackgroundColor = .white
 //        cropPickerController.scrollBackgroundColor = .white
 //        cropPickerController.cropDimBackgroundColor = UIColor(white: 0, alpha: 0.9)
 //        cropPickerController.scrollMinimumZoomScale = 0.1
 //        cropPickerController.scrollMaximumZoomScale = 12
-        
+
         return cropPickerController
     }
 }
