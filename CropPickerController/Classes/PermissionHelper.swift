@@ -42,10 +42,14 @@ class PermissionHelper: NSObject {
                 PHPhotoLibrary.requestAuthorization() { (status) in
                     switch status {
                     case .authorized:
-                        handler(nil)
+                        DispatchQueue.main.async {
+                            handler(nil)
+                        }
                         break
                     default:
-                        handler(self.deniedAlertController(self.permissionGalleryDeniedTitle, message: self.permissionGalleryDeniedMessage))
+                        DispatchQueue.main.async {
+                            handler(self.deniedAlertController(self.permissionGalleryDeniedTitle, message: self.permissionGalleryDeniedMessage))
+                        }
                     }
                 }
             }
@@ -63,9 +67,13 @@ class PermissionHelper: NSObject {
             } else {
                 AVCaptureDevice.requestAccess(for: AVMediaType.video) { (isAccess) in
                     if isAccess{
-                        handler(nil)
+                        DispatchQueue.main.async {
+                            handler(nil)
+                        }
                     } else {
-                        handler(self.deniedAlertController(self.permissionCameraDeniedTitle, message: self.permissionCameraDeniedMessage))
+                        DispatchQueue.main.async {
+                            handler(self.deniedAlertController(self.permissionCameraDeniedTitle, message: self.permissionCameraDeniedMessage))
+                        }
                     }
                 }
             }
