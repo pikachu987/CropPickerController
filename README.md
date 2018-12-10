@@ -9,6 +9,10 @@
 
 There is a single image picker controller for cropping and a multi image picker controller for selecting various images. You can select an album and it will be updated automatically when you edit the album.
 
+### CropPickerView
+
+If you want to customize your UIViewController or just display a Crop View, see [CropPickerView](https://github.com/pikachu987/CropPickerView)
+
 |Single|Complex|
 |---|---|
 |<img src='./img/1.gif' width='200px'>|<img src='./img/2.gif' width='200px'>|
