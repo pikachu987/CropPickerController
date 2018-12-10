@@ -13,7 +13,7 @@ There is a single image picker controller for cropping and a multi image picker 
 
 If you want to customize your UIViewController or just display a Crop View, see [CropPickerView](https://github.com/pikachu987/CropPickerView)
 
-<br/><br/><br/>
+<br/>
 
 ### CropPickerController
 
