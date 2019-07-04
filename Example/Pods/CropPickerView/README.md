@@ -3,11 +3,19 @@
 [![Version](https://img.shields.io/cocoapods/v/CropPickerView.svg?style=flat)](https://cocoapods.org/pods/CropPickerView)
 [![License](https://img.shields.io/cocoapods/l/CropPickerView.svg?style=flat)](https://cocoapods.org/pods/CropPickerView)
 [![Platform](https://img.shields.io/cocoapods/p/CropPickerView.svg?style=flat)](https://cocoapods.org/pods/CropPickerView)
-[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 
 ## Introduce
 
 The Corner and Side buttons allow you to modify the position of the crop and UIScrollView to zoom the image. If the image is larger than the area of the UIScrollView, the image can be scrolled up and down, left and right, and if the image is smaller than the area of the UIScrollView, the image is always centered.
+
+### [CropPickerController](https://github.com/pikachu987/CropPickerController)
+
+If you want to see the CropPickerViewController that is created with CropView, see [CropPickerController](https://github.com/pikachu987/CropPickerController)
+
+<br/>
+
+### CropPickerView
 
 <img src='./img/2.gif' width='200px'>
 
@@ -15,7 +23,7 @@ The Corner and Side buttons allow you to modify the position of the crop and UIS
 
 ## Requirements
 
-`CropPickerView` written in Swift 4.2. Compatible with iOS 8.0+
+`CropPickerView` written in Swift 5.0. Compatible with iOS 8.0+
 
 ## Installation
 

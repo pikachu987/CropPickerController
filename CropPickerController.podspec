@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CropPickerController'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'There is a single image picker controller for cropping and a multi image picker controller for selecting various images.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ DESC
 
   s.ios.deployment_target = '8.0'
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   s.source_files = 'CropPickerController/Classes/**/*'
   
@@ -40,5 +40,5 @@ DESC
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'CropPickerView', '0.1.1'
+  s.dependency 'CropPickerView', '0.1.3'
 end

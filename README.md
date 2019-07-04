@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/CropPickerController.svg?style=flat)](https://cocoapods.org/pods/CropPickerController)
 [![License](https://img.shields.io/cocoapods/l/CropPickerController.svg?style=flat)](https://cocoapods.org/pods/CropPickerController)
 [![Platform](https://img.shields.io/cocoapods/p/CropPickerController.svg?style=flat)](https://cocoapods.org/pods/CropPickerController)
-[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 
 ## Introduce
 
@@ -29,7 +29,7 @@ If you want to customize your UIViewController or just display a Crop View, see 
 
 ## Requirements
 
-`CropPickerController` written in Swift 4.2. Compatible with iOS 8.0+
+`CropPickerController` written in Swift 5.0. Compatible with iOS 8.0+
 
 ## Installation
 
