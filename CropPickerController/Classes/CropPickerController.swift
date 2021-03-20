@@ -508,11 +508,11 @@ public class CropPickerController: UIViewController {
     // Crop Tap
     @objc public func cropTap(_ sender: UIBarButtonItem) {
         if self.cropPickerType == .single {
-            self.cropPickerView.crop { (error, image) in
-                if let image = image {
-                    self.delegate?.cropPickerCompleteAction(self, images: [image], error: error)
+            self.cropPickerView.crop { (result) in
+                if let image = result.image {
+                    self.delegate?.cropPickerCompleteAction(self, images: [image], error: result.error)
                 } else {
-                    self.delegate?.cropPickerCompleteAction(self, images: nil, error: error)
+                    self.delegate?.cropPickerCompleteAction(self, images: nil, error: result.error)
                 }
             }
         } else {

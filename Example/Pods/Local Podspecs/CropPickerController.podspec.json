@@ -1,6 +1,6 @@
 {
   "name": "CropPickerController",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "There is a single image picker controller for cropping and a multi image picker controller for selecting various images.",
   "description": "There is a single image picker controller for cropping and a multi image picker controller for selecting various images. You can select an album and it will be updated automatically when you edit the album.",
   "homepage": "https://github.com/pikachu987/CropPickerController",
@@ -13,16 +13,16 @@
   },
   "source": {
     "git": "https://github.com/pikachu987/CropPickerController.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "swift_versions": "5.0",
   "source_files": "CropPickerController/Classes/**/*",
   "dependencies": {
     "CropPickerView": [
-      "0.1.3"
+      "0.2.7"
     ]
   },
   "swift_version": "5.0"

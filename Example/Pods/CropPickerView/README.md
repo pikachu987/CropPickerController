@@ -1,9 +1,11 @@
 # CropPickerView
 
+[![CI Status](https://img.shields.io/travis/pikachu987/CropPickerView.svg?style=flat)](https://travis-ci.org/pikachu987/CropPickerView)
 [![Version](https://img.shields.io/cocoapods/v/CropPickerView.svg?style=flat)](https://cocoapods.org/pods/CropPickerView)
 [![License](https://img.shields.io/cocoapods/l/CropPickerView.svg?style=flat)](https://cocoapods.org/pods/CropPickerView)
 [![Platform](https://img.shields.io/cocoapods/p/CropPickerView.svg?style=flat)](https://cocoapods.org/pods/CropPickerView)
-[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+![](https://img.shields.io/badge/Supported-iOS9%20%7C%20OSX%2010.9-4BC51D.svg?style=flat-square)
+![](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)
 
 ## Introduce
 
@@ -17,9 +19,13 @@ If you want to see the CropPickerViewController that is created with CropView, s
 
 ### CropPickerView
 
-<img src='./img/2.gif' width='200px'>
+|-|-|-|
+|---|---|---|
+|<img src='./img/result1.png' width='200px'>|<img src='./img/result2.png' width='200px'>|<img src='./img/radius.png' width='200px'>|
 
-<img src='./img/1.gif' width='200px'>
+|-|-|
+|---|---|
+|<img src='./img/2.gif' width='200px'>|<img src='./img/1.gif' width='200px'>|
 
 ## Requirements
 
@@ -72,7 +78,11 @@ image
 
 ```swift
 
-cropPickerView.image = UIImage(named: "")
+cropPickerView.image = image
+cropPickerView.image(image, crop: CGRect(x: 50, y: 30, width: 100, height: 80), isRealCropRect: false)
+cropPickerView.image(image, crop: CGRect(x: 50, y: 30, width: 100, height: 80), isRealCropRect: true)
+cropPickerView.image(image, isMin: false, crop: CGRect(x: 50, y: 30, width: 100, height: 80), isRealCropRect: true)
+cropPickerView.image(image, isMin: false)
 
 ```
 
@@ -96,6 +106,22 @@ cropPickerView.scrollMaximumZoomScale = 2
 
 ```
 
+radius
+
+```swift
+
+cropPickerView.radius = 50
+
+```
+
+cropSize
+
+```swift
+
+cropPickerView.cropMinSize = 200
+
+```
+
 <br><br>
 
 ### Method
@@ -104,14 +130,14 @@ crop
 
 ```swift
 
-cropPickerView.crop { (error, image) in
-    if let error = (error as NSError?) {
+cropPickerView.crop { (result) in
+    if let error = (result.error as NSError?) {
         let alertController = UIAlertController(title: "Error", message: error.domain, preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
         self.present(alertController, animated: true, completion: nil)
         return
     }
-    self.imageView.image = image
+    self.imageView.image = result.image
 }
 
 ```
@@ -133,11 +159,12 @@ class ViewController: UIViewController{
 
 // MARK: CropPickerViewDelegate
 extension ViewController: CropPickerViewDelegate {
-    func cropPickerView(_ cropPickerView: CropPickerView, error: Error) {
+    func cropPickerView(_ cropPickerView: CropPickerView, result: CropResult) {
 
     }
-    func cropPickerView(_ cropPickerView: CropPickerView, image: UIImage) {
 
+    func cropPickerView(_ cropPickerView: CropPickerView, didChange frame: CGRect) {
+        print("frame: \(frame)")
     }
 }
 

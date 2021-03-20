@@ -7,169 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		009AEE47955863E8EB5ADE9CC16ECC4A /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6882F118999C07433C858CF1909A1 /* CameraView.swift */; };
-		0E09B1F5B4BCF53CC79B79253B8E1E0F /* CropPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100BA2DD064D3B61447639018E2A8295 /* CropPickerView.swift */; };
-		13030B69F8ED402305FCDAA495C2E854 /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BFD1226FFD76DF7A14FDC2344DC87 /* ArrowView.swift */; };
-		23A9264234AFE46779520E1D22DCECE6 /* Pods-CropPickerController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3803CA22DE3D29AF8D0BD2AC765327 /* Pods-CropPickerController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28CE058D2916F0505C73D8C30F982976 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A91B3842C5E3CF32187B6378ACF5E /* UIView+.swift */; };
-		31A09BEFE5C3DC294929495C9A3BBFD7 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D119B6BE79D958E16559222D3511777 /* UIImageView+.swift */; };
-		3B5C18BBB27C50ADFD5C4C1DE7DEC61D /* CropPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4A3CD85D534F5F3FB11B671071D73F /* CropPickerController.swift */; };
-		4B78156019247BF58927E970651994E8 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C88831CF30E310D67FFEE0D4EB7ACC /* TitleButton.swift */; };
-		4EC2BBCF293D4B4306F1AEC08233A263 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CEFD04229A74BB646579D9D0B9FDDB /* UIImage+.swift */; };
-		54443ABD5E3AABD3A1421DEDFB66C222 /* BezierPath+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947A9163DA5E57D981D204B72819E62 /* BezierPath+.swift */; };
-		6D76439A862E54242D82E76A8F55F0D2 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DD8A14DC27E77CF874F6D9743E5DD /* ProgressView.swift */; };
-		708B23268A828582DFB54BA468EF139A /* BezierPath+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12399E7EAABCB12354E1904260567B69 /* BezierPath+.swift */; };
-		75D2344B014D6CFB230BCAD48D904B60 /* CropPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DF1981DAA00D4B5D6D19C8F3CF77B5 /* CropPickerView-dummy.m */; };
-		7637CEAD538E3745850684F187054C37 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B213F948E53D6A8AC4C2362477A398 /* CropView.swift */; };
-		76AB0C957378958B5BFCB8DB034734C4 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5113CB90584AE931C9CB85795568FA /* ImageAsset.swift */; };
-		76BB2B1A0D558E9116ABCA79928B9C6B /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7B4E523519816F84A6161E0CC262F /* Double+.swift */; };
-		76D9ED0372C4A1D35AA160EECCF987FD /* CropPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 457FD6CCCC153BAB66113849667F1E3C /* CropPickerController-dummy.m */; };
-		7B5CA7D9FEF6E8C2E93E9217130F34EA /* CropPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF06603B72373CD130D0434DDD2F186 /* CropPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C99F60190F3E754293571A9C485BE63 /* Pods-CropPickerController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C08F252A063DF0B955C53A56EDE262 /* Pods-CropPickerController_Tests-dummy.m */; };
-		82931543A4122BFE8C153BC72D330790 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D08ED406346B84C17411E8C55D3DA /* CheckView.swift */; };
-		865308715E791648070A70A8FD4D7C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE499E6EA72996320F6757F115353E1 /* Foundation.framework */; };
-		8B0E9AB8F691BF2C8749E2E381076E06 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBEC42E688F2C668CF8D216FBF0E88D /* CheckBoxView.swift */; };
-		8E451CFD32DDA6A052044A3DE1A2FB01 /* CropPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C50182A8F5B1B700BC36F38CA8F1C30 /* CropPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CDB56BE6A824142D247740640FCF15C /* Pods-CropPickerController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C6B388E69367616B3F2057F58F1B3 /* Pods-CropPickerController_Example-dummy.m */; };
-		A56BEA30896DC5BCCD0CC068874C8F58 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E64198E3C70850696831BC818A5B3 /* UIView+.swift */; };
-		B6D1921634112AD4CD67BE335202A57A /* Pods-CropPickerController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 878CA94DAAC00D3471406313B5927B0C /* Pods-CropPickerController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B85CFF34ACE278B7596ACEAC2E7096A4 /* NSLayoutConstraint+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F6027904C5CA0EDF8D85556B4CAFB4 /* NSLayoutConstraint+.swift */; };
-		BEFFF0A5F977C1AF8B233EC2B90BA291 /* LineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4787067848A092DAA191D0DC177722E9 /* LineButton.swift */; };
-		C94F86B35C365F2910163BDC8D7D9F94 /* CropDimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E4C61CB33D786EA926F99ADF596E2 /* CropDimView.swift */; };
-		CCE7BB5CC62A936A90D7EB71022F318A /* PermissionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8683EA2D0174B819BE94B5DAFFF0715 /* PermissionHelper.swift */; };
-		D05F977104CA223C7B906172E41F0FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE499E6EA72996320F6757F115353E1 /* Foundation.framework */; };
-		DD899C0EC19FE3662D6856E381B62288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE499E6EA72996320F6757F115353E1 /* Foundation.framework */; };
-		E7D262B3DDC5597CA9E3A9EDD1F8FCA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE499E6EA72996320F6757F115353E1 /* Foundation.framework */; };
-		E8B261AFE2D065803D9FC7831BF62823 /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED10B64587E0835F589895A42798AD /* PictureCell.swift */; };
-		F7CCE60A154D7B2C0DDC11202639E295 /* CropPickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2FF18ED017450E5F093537227D76ED /* CropPickerView.framework */; };
+		03BF8081A9BA3019A1ADEA27C9FA516A /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A71F294CC588E868A9DBFEFAEB03B /* PictureCell.swift */; };
+		0C334BF226A3F32720CEAA7146EE5505 /* Pods-CropPickerController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C6B388E69367616B3F2057F58F1B3 /* Pods-CropPickerController_Example-dummy.m */; };
+		10FC902DD1303CC339B9DF939B691AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E39710EC12A4D9BE1B703073DF0CA2 /* Foundation.framework */; };
+		13C504F0649C9888F9ABA8EC79E59433 /* CropPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152838DF07E7638E6C75FB4B775E5F6 /* CropPickerView.swift */; };
+		1505E9E568B4D20FE1A35FDE6648502E /* NSLayoutConstraint+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755BBAE286DB7EDB5A055BB1BEAD24B4 /* NSLayoutConstraint+.swift */; };
+		1FAA67477F8D1032117542E81BE9609B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E39710EC12A4D9BE1B703073DF0CA2 /* Foundation.framework */; };
+		210CB5C9870E2F0A066660D2A6936244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E39710EC12A4D9BE1B703073DF0CA2 /* Foundation.framework */; };
+		266B044174FFED7C34FBA9F263228E79 /* CropPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F81EDB05326A8EE159F58E3ED65ED2A /* CropPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A9BD54F9513718CCC3CB2225DA5F977 /* BezierPath+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EEB97A3A6F0677302AF8A9106189AD /* BezierPath+.swift */; };
+		32D67CFA299EEA2E0ABE348D2D273C45 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B2D3012CD43BB04D5F5A4CF050058 /* CheckBoxView.swift */; };
+		3BFDECEA245D133E6AC704802AA29E2D /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAAF8740494BAB29BE9DDCB074F3FF /* UIImage+.swift */; };
+		426521D9A0CD123179883A4EA856915F /* PermissionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE182C8E0291C7CE67EF15F3C953BF2 /* PermissionHelper.swift */; };
+		4408D5FE6A70E3DCD8AE3E852D6D4BAC /* CropPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA2FC4EBC098D4958D1E28F88F59BB8 /* CropPickerController.swift */; };
+		445947E6672CA956C68B4A1F9048FAEE /* Pods-CropPickerController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C08F252A063DF0B955C53A56EDE262 /* Pods-CropPickerController_Tests-dummy.m */; };
+		5ECBA0CFD1BBFBD484CF8FA438809DA5 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5F1D378C606B4360FE61729EC9353 /* UIImageView+.swift */; };
+		5F533B86F3820B00EE8CD10502117CA9 /* CropResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADE81C55D85482CE61720CA8FA8C01A /* CropResult.swift */; };
+		6436EF50418AE8278AB6EE36EFB107A3 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695FE786ED0D5BDF36B48536D85AEBA /* TitleButton.swift */; };
+		6BE41EB4BAABFAE5D60F0B3875D6A6B6 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD0B432359768E47643E76DEFC9CE8 /* Double+.swift */; };
+		74F2261C7693B11EAB2DEACB3F30CF24 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CA61CB7274981B048C37BB94F727F5 /* UIView+.swift */; };
+		77A41860F9AC2EFADB531EC2928A5F80 /* Pods-CropPickerController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3803CA22DE3D29AF8D0BD2AC765327 /* Pods-CropPickerController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81BDB2D1BCF0F24304AE6FF5BFBDD3EF /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE7602C6562996700C7B0BCB80ED97 /* CheckView.swift */; };
+		8A5DA96548C5D39C2CABA3AE9CEF3EF1 /* CropDimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010E784447EF70300D9552C0A8145E85 /* CropDimView.swift */; };
+		990BDB03FC6FEE2540BC235373624B32 /* CropPickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2FF18ED017450E5F093537227D76ED /* CropPickerView.framework */; };
+		A36542041C3834CCC2A8A5235AEFE20B /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5489295374692A6066FE94139066C3D /* UIView+.swift */; };
+		AAF5C8786DD0FF28608B62FEDBCAFB6D /* LineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32993EE413C572E8AAA45954EEFB965C /* LineButton.swift */; };
+		B14A88233992D8D78ECB7F9777476212 /* CropPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0733C48980C06719B15358800FE271DB /* CropPickerView-dummy.m */; };
+		BE104D4B2A81BA1C6810238AA83E2430 /* CropPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E38B050060A281AB4E2131C2384B6 /* CropPickerController-dummy.m */; };
+		C16AD19945399E0757EAA9457FB3D61C /* Pods-CropPickerController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 878CA94DAAC00D3471406313B5927B0C /* Pods-CropPickerController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2BE97815FD094FA1F3031F0B8B4D2D7 /* BezierPath+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5FED713856B7D1D22DEEB537E1CC2E /* BezierPath+.swift */; };
+		CCA50BD3B62FE48D6C59C425E4686B3E /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35D4AC2379470DE9A306AA32DDD183B /* UIImage+.swift */; };
+		D25B708F89751D74034E633759F682B0 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E3ED20E96C67A6877667095C6DF1B3 /* ProgressView.swift */; };
+		D960DEA029ED77752A32714F9371B15C /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93243298D259350BB197E2022A476FE /* ArrowView.swift */; };
+		F038841FB49C70CBC248837E2D3B5DD3 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33A5B1076271A8B42685A08C9EEBA3 /* CropView.swift */; };
+		F7891DC4B4167EF9EDA7945E5527C843 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BA8212A09E066653D6F308B1912CF /* CameraView.swift */; };
+		FB4A44F9F6CDEE4465735376DDED71C2 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B23AC4B00206DC8FDB459772785A71 /* ImageAsset.swift */; };
+		FBF6FD91F9D9DB85D6444DD8702417E8 /* CropPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41822A7EB9C8E8E5B4F8452FEF84B88E /* CropPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF0256B1C2616C78CD2CE675AD40FB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E39710EC12A4D9BE1B703073DF0CA2 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D8C80574C2A53650794C423B900567A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA8CB5B763724E48B49A1ED6999E069B;
-			remoteInfo = CropPickerController;
-		};
-		481BC098A934B15AAB0C5E961A6348B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2E82C663A10701CE6B794CFF6CCFA17;
-			remoteInfo = CropPickerView;
-		};
-		5BEB8126F17971824995F6F179E9CF19 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2E82C663A10701CE6B794CFF6CCFA17;
-			remoteInfo = CropPickerView;
-		};
-		8773EE18D800E005C32155543C37011A /* PBXContainerItemProxy */ = {
+		1C4B738395E5DBDCE493DA0FF9AD7843 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ACBB14B8840FC5BACE637F2B399AC56E;
 			remoteInfo = "Pods-CropPickerController_Example";
 		};
+		8FF8622FF5A638C032A9D8F991246DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8CB5B763724E48B49A1ED6999E069B;
+			remoteInfo = CropPickerController;
+		};
+		9DC2B051ACCC1C609577DFE607701E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2E82C663A10701CE6B794CFF6CCFA17;
+			remoteInfo = CropPickerView;
+		};
+		A061CA3E320B376C54ABE5A8171E2E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2E82C663A10701CE6B794CFF6CCFA17;
+			remoteInfo = CropPickerView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019E4C61CB33D786EA926F99ADF596E2 /* CropDimView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropDimView.swift; path = CropPickerView/Classes/CropDimView.swift; sourceTree = "<group>"; };
+		010E784447EF70300D9552C0A8145E85 /* CropDimView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropDimView.swift; path = CropPickerView/Classes/CropDimView.swift; sourceTree = "<group>"; };
 		029622E4B3363FEAE27E252EBB735D52 /* Pods-CropPickerController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CropPickerController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		100BA2DD064D3B61447639018E2A8295 /* CropPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropPickerView.swift; path = CropPickerView/Classes/CropPickerView.swift; sourceTree = "<group>"; };
-		12399E7EAABCB12354E1904260567B69 /* BezierPath+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BezierPath+.swift"; path = "CropPickerController/Classes/BezierPath+.swift"; sourceTree = "<group>"; };
-		13EFCA9FBE5737971650F5C133EF3E88 /* CropPickerController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CropPickerController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		151452C44FB41CB2A8D8AA406350CF86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1AE499E6EA72996320F6757F115353E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1F0D70073656861FDF6317D00744CC8E /* Pods_CropPickerController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CropPickerController_Example.framework; path = "Pods-CropPickerController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21B719D58A2A117F7210450832446330 /* CropPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropPickerController.modulemap; sourceTree = "<group>"; };
-		26CEFD04229A74BB646579D9D0B9FDDB /* UIImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+.swift"; path = "CropPickerController/Classes/UIImage+.swift"; sourceTree = "<group>"; };
+		0733C48980C06719B15358800FE271DB /* CropPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropPickerView-dummy.m"; sourceTree = "<group>"; };
+		08E3ED20E96C67A6877667095C6DF1B3 /* ProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = CropPickerController/Classes/ProgressView.swift; sourceTree = "<group>"; };
+		156DA1D8BD60FD48BF9B4520AEC1CAB8 /* CropPickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropPickerController.debug.xcconfig; sourceTree = "<group>"; };
+		1CC01F2D822AD36C7C66B108E28CA063 /* CropPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropPickerView.debug.xcconfig; sourceTree = "<group>"; };
+		1F0D70073656861FDF6317D00744CC8E /* Pods_CropPickerController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CropPickerController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2152838DF07E7638E6C75FB4B775E5F6 /* CropPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropPickerView.swift; path = CropPickerView/Classes/CropPickerView.swift; sourceTree = "<group>"; };
+		22BD0B432359768E47643E76DEFC9CE8 /* Double+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+.swift"; path = "CropPickerController/Classes/Double+.swift"; sourceTree = "<group>"; };
+		2A2E38B050060A281AB4E2131C2384B6 /* CropPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropPickerController-dummy.m"; sourceTree = "<group>"; };
 		2F75FB89B02FA43D7F1D31142B3FA13E /* Pods-CropPickerController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CropPickerController_Tests-Info.plist"; sourceTree = "<group>"; };
+		32993EE413C572E8AAA45954EEFB965C /* LineButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineButton.swift; path = CropPickerView/Classes/LineButton.swift; sourceTree = "<group>"; };
 		35E043F319DCB1D42878A17910A37DAF /* Pods-CropPickerController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CropPickerController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3E5D08ED406346B84C17411E8C55D3DA /* CheckView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckView.swift; path = CropPickerController/Classes/CheckView.swift; sourceTree = "<group>"; };
 		40A65BE6AF81AB67D8940565DAF163A8 /* Pods-CropPickerController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CropPickerController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41822A7EB9C8E8E5B4F8452FEF84B88E /* CropPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerController-umbrella.h"; sourceTree = "<group>"; };
 		43C08F252A063DF0B955C53A56EDE262 /* Pods-CropPickerController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CropPickerController_Tests-dummy.m"; sourceTree = "<group>"; };
-		44476839231698EEE3C57301816C9C49 /* CropPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CropPickerController.framework; path = CropPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44476839231698EEE3C57301816C9C49 /* CropPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CropPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		454C59E0D9C872F2587E6C3C86FFDD91 /* Pods-CropPickerController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CropPickerController_Example.modulemap"; sourceTree = "<group>"; };
-		457FD6CCCC153BAB66113849667F1E3C /* CropPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropPickerController-dummy.m"; sourceTree = "<group>"; };
-		4787067848A092DAA191D0DC177722E9 /* LineButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineButton.swift; path = CropPickerView/Classes/LineButton.swift; sourceTree = "<group>"; };
 		4C4C6B388E69367616B3F2057F58F1B3 /* Pods-CropPickerController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CropPickerController_Example-dummy.m"; sourceTree = "<group>"; };
-		4D119B6BE79D958E16559222D3511777 /* UIImageView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+.swift"; path = "CropPickerView/Classes/UIImageView+.swift"; sourceTree = "<group>"; };
-		54E40D4B1F9C4766E34F3F0281931479 /* CropPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropPickerView.xcconfig; sourceTree = "<group>"; };
-		60DF1981DAA00D4B5D6D19C8F3CF77B5 /* CropPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropPickerView-dummy.m"; sourceTree = "<group>"; };
-		613DD8A14DC27E77CF874F6D9743E5DD /* ProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressView.swift; path = CropPickerController/Classes/ProgressView.swift; sourceTree = "<group>"; };
+		57EEB97A3A6F0677302AF8A9106189AD /* BezierPath+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BezierPath+.swift"; path = "CropPickerController/Classes/BezierPath+.swift"; sourceTree = "<group>"; };
+		67BAAF8740494BAB29BE9DDCB074F3FF /* UIImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+.swift"; path = "CropPickerController/Classes/UIImage+.swift"; sourceTree = "<group>"; };
+		6ADE81C55D85482CE61720CA8FA8C01A /* CropResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropResult.swift; path = CropPickerView/Classes/CropResult.swift; sourceTree = "<group>"; };
+		6B2529658735B2503E3A62B3496AE8B6 /* CropPickerController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CropPickerController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6FE182C8E0291C7CE67EF15F3C953BF2 /* PermissionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionHelper.swift; path = CropPickerController/Classes/PermissionHelper.swift; sourceTree = "<group>"; };
+		70B23AC4B00206DC8FDB459772785A71 /* ImageAsset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAsset.swift; path = CropPickerController/Classes/ImageAsset.swift; sourceTree = "<group>"; };
+		719BA8212A09E066653D6F308B1912CF /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = CropPickerController/Classes/CameraView.swift; sourceTree = "<group>"; };
 		7538E0C74598FCEDA528C852B734191D /* Pods-CropPickerController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CropPickerController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		79B213F948E53D6A8AC4C2362477A398 /* CropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropView.swift; path = CropPickerView/Classes/CropView.swift; sourceTree = "<group>"; };
-		7C50182A8F5B1B700BC36F38CA8F1C30 /* CropPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerView-umbrella.h"; sourceTree = "<group>"; };
-		7CBEC42E688F2C668CF8D216FBF0E88D /* CheckBoxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckBoxView.swift; path = CropPickerController/Classes/CheckBoxView.swift; sourceTree = "<group>"; };
-		7D93886560F4650FB7D19F164EDB5131 /* Pods_CropPickerController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CropPickerController_Tests.framework; path = "Pods-CropPickerController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E3BFD1226FFD76DF7A14FDC2344DC87 /* ArrowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrowView.swift; path = CropPickerController/Classes/ArrowView.swift; sourceTree = "<group>"; };
-		7F0E64198E3C70850696831BC818A5B3 /* UIView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+.swift"; path = "CropPickerView/Classes/UIView+.swift"; sourceTree = "<group>"; };
+		755BBAE286DB7EDB5A055BB1BEAD24B4 /* NSLayoutConstraint+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+.swift"; path = "CropPickerView/Classes/NSLayoutConstraint+.swift"; sourceTree = "<group>"; };
+		7C4623E88B50F10404B2E36B88F1404D /* CropPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropPickerController.modulemap; sourceTree = "<group>"; };
+		7D93886560F4650FB7D19F164EDB5131 /* Pods_CropPickerController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CropPickerController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE762A7076B29F48D7B9B446E541DFC /* Pods-CropPickerController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CropPickerController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8015AF418CD8BD60ABD6A060607CF2D2 /* Pods-CropPickerController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CropPickerController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		806A628B824188C463D4214EFDE43D7A /* CropPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerView-prefix.pch"; sourceTree = "<group>"; };
+		806A71F294CC588E868A9DBFEFAEB03B /* PictureCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PictureCell.swift; path = CropPickerController/Classes/PictureCell.swift; sourceTree = "<group>"; };
 		830EDAF7670067624DB46ADC71D74602 /* Pods-CropPickerController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CropPickerController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		85EE7602C6562996700C7B0BCB80ED97 /* CheckView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckView.swift; path = CropPickerController/Classes/CheckView.swift; sourceTree = "<group>"; };
 		86F7C40E847FE2B31A3B6B8DC781A9EC /* Pods-CropPickerController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CropPickerController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		878CA94DAAC00D3471406313B5927B0C /* Pods-CropPickerController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CropPickerController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		98D7B4E523519816F84A6161E0CC262F /* Double+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+.swift"; path = "CropPickerController/Classes/Double+.swift"; sourceTree = "<group>"; };
+		90A5F1D378C606B4360FE61729EC9353 /* UIImageView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+.swift"; path = "CropPickerView/Classes/UIImageView+.swift"; sourceTree = "<group>"; };
 		9C612BACC16818028BBDA9EF009E52AF /* Pods-CropPickerController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CropPickerController_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E283CB1795F5AC2EFD425E0EF0D7B2D /* CropPickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropPickerController.xcconfig; sourceTree = "<group>"; };
-		A1E6882F118999C07433C858CF1909A1 /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = CropPickerController/Classes/CameraView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F81EDB05326A8EE159F58E3ED65ED2A /* CropPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerView-umbrella.h"; sourceTree = "<group>"; };
 		AE3803CA22DE3D29AF8D0BD2AC765327 /* Pods-CropPickerController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CropPickerController_Example-umbrella.h"; sourceTree = "<group>"; };
-		B1ECB118AE1BEE30D0B9B9D0778DD90D /* CropPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropPickerView-Info.plist"; sourceTree = "<group>"; };
-		B3C88831CF30E310D67FFEE0D4EB7ACC /* TitleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleButton.swift; path = CropPickerController/Classes/TitleButton.swift; sourceTree = "<group>"; };
-		B511B25B58C2F1E44EF639137AF46156 /* CropPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerView-prefix.pch"; sourceTree = "<group>"; };
-		B7C0793A06250D4A135289FDDF8637E3 /* CropPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropPickerView.modulemap; sourceTree = "<group>"; };
-		BC4A3CD85D534F5F3FB11B671071D73F /* CropPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropPickerController.swift; path = CropPickerController/Classes/CropPickerController.swift; sourceTree = "<group>"; };
-		C3CD067C0D6342E929EFA16FF3E22FFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B5489295374692A6066FE94139066C3D /* UIView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+.swift"; path = "CropPickerView/Classes/UIView+.swift"; sourceTree = "<group>"; };
+		B97F55FAC7C2D9CAF1106586E52DA341 /* CropPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropPickerView.release.xcconfig; sourceTree = "<group>"; };
+		B9CA61CB7274981B048C37BB94F727F5 /* UIView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+.swift"; path = "CropPickerController/Classes/UIView+.swift"; sourceTree = "<group>"; };
+		BAA2FC4EBC098D4958D1E28F88F59BB8 /* CropPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropPickerController.swift; path = CropPickerController/Classes/CropPickerController.swift; sourceTree = "<group>"; };
+		C1C33CACE6BAF1E92BF95B02395D392A /* CropPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerController-prefix.pch"; sourceTree = "<group>"; };
+		C35D4AC2379470DE9A306AA32DDD183B /* UIImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+.swift"; path = "CropPickerView/Classes/UIImage+.swift"; sourceTree = "<group>"; };
 		C4C56D02899E80CED05BAC31A6AA0027 /* Pods-CropPickerController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CropPickerController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CC2FF18ED017450E5F093537227D76ED /* CropPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CropPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD0A91B3842C5E3CF32187B6378ACF5E /* UIView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+.swift"; path = "CropPickerController/Classes/UIView+.swift"; sourceTree = "<group>"; };
-		D072C6D92664DE04BF2150DD1B3BB35B /* CropPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerController-prefix.pch"; sourceTree = "<group>"; };
+		CE3109E9A9AF1422577D0ED75FF6B04E /* CropPickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropPickerController.release.xcconfig; sourceTree = "<group>"; };
+		D93243298D259350BB197E2022A476FE /* ArrowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrowView.swift; path = CropPickerController/Classes/ArrowView.swift; sourceTree = "<group>"; };
 		DA56C1E2FFD06289C83F9C239BA90BAA /* Pods-CropPickerController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CropPickerController_Example-Info.plist"; sourceTree = "<group>"; };
-		DAED10B64587E0835F589895A42798AD /* PictureCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PictureCell.swift; path = CropPickerController/Classes/PictureCell.swift; sourceTree = "<group>"; };
-		DE5113CB90584AE931C9CB85795568FA /* ImageAsset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAsset.swift; path = CropPickerController/Classes/ImageAsset.swift; sourceTree = "<group>"; };
-		E31586FC280F184D535DB550C90E57A9 /* CropPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CropPickerView.framework; path = CropPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8683EA2D0174B819BE94B5DAFFF0715 /* PermissionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionHelper.swift; path = CropPickerController/Classes/PermissionHelper.swift; sourceTree = "<group>"; };
-		E947A9163DA5E57D981D204B72819E62 /* BezierPath+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BezierPath+.swift"; path = "CropPickerView/Classes/BezierPath+.swift"; sourceTree = "<group>"; };
-		F0F6027904C5CA0EDF8D85556B4CAFB4 /* NSLayoutConstraint+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+.swift"; path = "CropPickerView/Classes/NSLayoutConstraint+.swift"; sourceTree = "<group>"; };
-		FE5FCE8CDA2A5111B164EEE13D8D5C34 /* CropPickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropPickerController-Info.plist"; sourceTree = "<group>"; };
-		FFF06603B72373CD130D0434DDD2F186 /* CropPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropPickerController-umbrella.h"; sourceTree = "<group>"; };
+		DC63593EC24361369212D8CD39D57C42 /* CropPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropPickerView.modulemap; sourceTree = "<group>"; };
+		DD33A5B1076271A8B42685A08C9EEBA3 /* CropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropView.swift; path = CropPickerView/Classes/CropView.swift; sourceTree = "<group>"; };
+		DD6A704F74D4AF9724EB061B3ACE759F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E0E39710EC12A4D9BE1B703073DF0CA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E141CC29825B534AD4E066A16974FEAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E31586FC280F184D535DB550C90E57A9 /* CropPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CropPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E9D9EC8144C9A76345B429EBFACA02 /* CropPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropPickerView-Info.plist"; sourceTree = "<group>"; };
+		EB5FED713856B7D1D22DEEB537E1CC2E /* BezierPath+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BezierPath+.swift"; path = "CropPickerView/Classes/BezierPath+.swift"; sourceTree = "<group>"; };
+		EC2579AB37E7D64B4DFB9393D3DF9C95 /* CropPickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropPickerController-Info.plist"; sourceTree = "<group>"; };
+		F695FE786ED0D5BDF36B48536D85AEBA /* TitleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleButton.swift; path = CropPickerController/Classes/TitleButton.swift; sourceTree = "<group>"; };
+		F75B2D3012CD43BB04D5F5A4CF050058 /* CheckBoxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckBoxView.swift; path = CropPickerController/Classes/CheckBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04D9F788EA4135E22F766170AD6980EA /* Frameworks */ = {
+		64A76BF15BEA5D887AD80B2882D8A18F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7CCE60A154D7B2C0DDC11202639E295 /* CropPickerView.framework in Frameworks */,
-				E7D262B3DDC5597CA9E3A9EDD1F8FCA7 /* Foundation.framework in Frameworks */,
+				990BDB03FC6FEE2540BC235373624B32 /* CropPickerView.framework in Frameworks */,
+				1FAA67477F8D1032117542E81BE9609B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55C2F3D357E527B3197A6AA16CF9AEFD /* Frameworks */ = {
+		E0538B1404445B17EB2BDD085A5F727A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				865308715E791648070A70A8FD4D7C18 /* Foundation.framework in Frameworks */,
+				FCF0256B1C2616C78CD2CE675AD40FB0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64D07BAA1A17FDA78F5A6E8E58752BEA /* Frameworks */ = {
+		F1197D53B37AD3FD19517BCBA1A9DC5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD899C0EC19FE3662D6856E381B62288 /* Foundation.framework in Frameworks */,
+				10FC902DD1303CC339B9DF939B691AE2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F45D60586EF1CA5537C8641C9E0A7084 /* Frameworks */ = {
+		F70E8EA381239AD0A98E8E8428EDF20D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05F977104CA223C7B906172E41F0FEA /* Foundation.framework in Frameworks */,
+				210CB5C9870E2F0A066660D2A6936244 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,44 +185,21 @@
 		0228E7E939C6A00FB04DFDF2C2BA3414 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0E2FD1265384FF07D695DA962228EBAB /* CropPickerController */,
+				CA90C04A36D4B3C620A0AA3D53447E8C /* CropPickerController */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		0E2FD1265384FF07D695DA962228EBAB /* CropPickerController */ = {
+		14232B3AE31F98EAB4E61DF30C00F354 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7E3BFD1226FFD76DF7A14FDC2344DC87 /* ArrowView.swift */,
-				12399E7EAABCB12354E1904260567B69 /* BezierPath+.swift */,
-				A1E6882F118999C07433C858CF1909A1 /* CameraView.swift */,
-				7CBEC42E688F2C668CF8D216FBF0E88D /* CheckBoxView.swift */,
-				3E5D08ED406346B84C17411E8C55D3DA /* CheckView.swift */,
-				BC4A3CD85D534F5F3FB11B671071D73F /* CropPickerController.swift */,
-				98D7B4E523519816F84A6161E0CC262F /* Double+.swift */,
-				DE5113CB90584AE931C9CB85795568FA /* ImageAsset.swift */,
-				E8683EA2D0174B819BE94B5DAFFF0715 /* PermissionHelper.swift */,
-				DAED10B64587E0835F589895A42798AD /* PictureCell.swift */,
-				613DD8A14DC27E77CF874F6D9743E5DD /* ProgressView.swift */,
-				B3C88831CF30E310D67FFEE0D4EB7ACC /* TitleButton.swift */,
-				26CEFD04229A74BB646579D9D0B9FDDB /* UIImage+.swift */,
-				CD0A91B3842C5E3CF32187B6378ACF5E /* UIView+.swift */,
-				E88DB06B9FE3A0EB17DE6628159D120D /* Pod */,
-				1DB031BB202BACAEB172523E97B0339F /* Support Files */,
-			);
-			name = CropPickerController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		1DB031BB202BACAEB172523E97B0339F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				21B719D58A2A117F7210450832446330 /* CropPickerController.modulemap */,
-				9E283CB1795F5AC2EFD425E0EF0D7B2D /* CropPickerController.xcconfig */,
-				457FD6CCCC153BAB66113849667F1E3C /* CropPickerController-dummy.m */,
-				FE5FCE8CDA2A5111B164EEE13D8D5C34 /* CropPickerController-Info.plist */,
-				D072C6D92664DE04BF2150DD1B3BB35B /* CropPickerController-prefix.pch */,
-				FFF06603B72373CD130D0434DDD2F186 /* CropPickerController-umbrella.h */,
+				7C4623E88B50F10404B2E36B88F1404D /* CropPickerController.modulemap */,
+				2A2E38B050060A281AB4E2131C2384B6 /* CropPickerController-dummy.m */,
+				EC2579AB37E7D64B4DFB9393D3DF9C95 /* CropPickerController-Info.plist */,
+				C1C33CACE6BAF1E92BF95B02395D392A /* CropPickerController-prefix.pch */,
+				41822A7EB9C8E8E5B4F8452FEF84B88E /* CropPickerController-umbrella.h */,
+				156DA1D8BD60FD48BF9B4520AEC1CAB8 /* CropPickerController.debug.xcconfig */,
+				CE3109E9A9AF1422577D0ED75FF6B04E /* CropPickerController.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CropPickerController";
@@ -238,43 +221,78 @@
 			path = "Target Support Files/Pods-CropPickerController_Tests";
 			sourceTree = "<group>";
 		};
-		1EA2FFCAE4C28A9523AFC157E24A88FC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FD09B1E556186734FBC171585D1AB972 /* CropPickerView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		1F48C8A6689C279B90A0271A6623058B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				CC2FF18ED017450E5F093537227D76ED /* CropPickerView.framework */,
-				23161D5ABF53074A0A26060906E2A8DC /* iOS */,
+				F0DD92FFF5C16D64735ADFA54CED6770 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		23161D5ABF53074A0A26060906E2A8DC /* iOS */ = {
+		2FFB2FEBCC238C20BB2DE91F19DAA4DA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1AE499E6EA72996320F6757F115353E1 /* Foundation.framework */,
+				C6A7C0EB23C909922334BA8DDED79691 /* CropPickerView */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		822762BB0F4113BE3B9FDB081DE10276 /* Support Files */ = {
+		5F3FCA86C694BA429E92534F08A7E2E1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B7C0793A06250D4A135289FDDF8637E3 /* CropPickerView.modulemap */,
-				54E40D4B1F9C4766E34F3F0281931479 /* CropPickerView.xcconfig */,
-				60DF1981DAA00D4B5D6D19C8F3CF77B5 /* CropPickerView-dummy.m */,
-				B1ECB118AE1BEE30D0B9B9D0778DD90D /* CropPickerView-Info.plist */,
-				B511B25B58C2F1E44EF639137AF46156 /* CropPickerView-prefix.pch */,
-				7C50182A8F5B1B700BC36F38CA8F1C30 /* CropPickerView-umbrella.h */,
+				DC63593EC24361369212D8CD39D57C42 /* CropPickerView.modulemap */,
+				0733C48980C06719B15358800FE271DB /* CropPickerView-dummy.m */,
+				E6E9D9EC8144C9A76345B429EBFACA02 /* CropPickerView-Info.plist */,
+				806A628B824188C463D4214EFDE43D7A /* CropPickerView-prefix.pch */,
+				9F81EDB05326A8EE159F58E3ED65ED2A /* CropPickerView-umbrella.h */,
+				1CC01F2D822AD36C7C66B108E28CA063 /* CropPickerView.debug.xcconfig */,
+				B97F55FAC7C2D9CAF1106586E52DA341 /* CropPickerView.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CropPickerView";
+			sourceTree = "<group>";
+		};
+		C6A7C0EB23C909922334BA8DDED79691 /* CropPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				EB5FED713856B7D1D22DEEB537E1CC2E /* BezierPath+.swift */,
+				010E784447EF70300D9552C0A8145E85 /* CropDimView.swift */,
+				2152838DF07E7638E6C75FB4B775E5F6 /* CropPickerView.swift */,
+				6ADE81C55D85482CE61720CA8FA8C01A /* CropResult.swift */,
+				DD33A5B1076271A8B42685A08C9EEBA3 /* CropView.swift */,
+				32993EE413C572E8AAA45954EEFB965C /* LineButton.swift */,
+				755BBAE286DB7EDB5A055BB1BEAD24B4 /* NSLayoutConstraint+.swift */,
+				C35D4AC2379470DE9A306AA32DDD183B /* UIImage+.swift */,
+				90A5F1D378C606B4360FE61729EC9353 /* UIImageView+.swift */,
+				B5489295374692A6066FE94139066C3D /* UIView+.swift */,
+				5F3FCA86C694BA429E92534F08A7E2E1 /* Support Files */,
+			);
+			path = CropPickerView;
+			sourceTree = "<group>";
+		};
+		CA90C04A36D4B3C620A0AA3D53447E8C /* CropPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				D93243298D259350BB197E2022A476FE /* ArrowView.swift */,
+				57EEB97A3A6F0677302AF8A9106189AD /* BezierPath+.swift */,
+				719BA8212A09E066653D6F308B1912CF /* CameraView.swift */,
+				F75B2D3012CD43BB04D5F5A4CF050058 /* CheckBoxView.swift */,
+				85EE7602C6562996700C7B0BCB80ED97 /* CheckView.swift */,
+				BAA2FC4EBC098D4958D1E28F88F59BB8 /* CropPickerController.swift */,
+				22BD0B432359768E47643E76DEFC9CE8 /* Double+.swift */,
+				70B23AC4B00206DC8FDB459772785A71 /* ImageAsset.swift */,
+				6FE182C8E0291C7CE67EF15F3C953BF2 /* PermissionHelper.swift */,
+				806A71F294CC588E868A9DBFEFAEB03B /* PictureCell.swift */,
+				08E3ED20E96C67A6877667095C6DF1B3 /* ProgressView.swift */,
+				F695FE786ED0D5BDF36B48536D85AEBA /* TitleButton.swift */,
+				67BAAF8740494BAB29BE9DDCB074F3FF /* UIImage+.swift */,
+				B9CA61CB7274981B048C37BB94F727F5 /* UIView+.swift */,
+				FAEEA9D93BA9EE0B05CA7854A6722A11 /* Pod */,
+				14232B3AE31F98EAB4E61DF30C00F354 /* Support Files */,
+			);
+			name = CropPickerController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CD5297E17500478AEEA16C556EE1CE4B /* Pods-CropPickerController_Example */ = {
@@ -300,7 +318,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				0228E7E939C6A00FB04DFDF2C2BA3414 /* Development Pods */,
 				1F48C8A6689C279B90A0271A6623058B /* Frameworks */,
-				1EA2FFCAE4C28A9523AFC157E24A88FC /* Pods */,
+				2FFB2FEBCC238C20BB2DE91F19DAA4DA /* Pods */,
 				DD0A225787EEC94891F05ACDC608E1FF /* Products */,
 				F0920FA1B282431682FE5D45559B98E1 /* Targets Support Files */,
 			);
@@ -317,16 +335,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E88DB06B9FE3A0EB17DE6628159D120D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				13EFCA9FBE5737971650F5C133EF3E88 /* CropPickerController.podspec */,
-				151452C44FB41CB2A8D8AA406350CF86 /* LICENSE */,
-				C3CD067C0D6342E929EFA16FF3E22FFB /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		F0920FA1B282431682FE5D45559B98E1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,55 +344,56 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FD09B1E556186734FBC171585D1AB972 /* CropPickerView */ = {
+		F0DD92FFF5C16D64735ADFA54CED6770 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E947A9163DA5E57D981D204B72819E62 /* BezierPath+.swift */,
-				019E4C61CB33D786EA926F99ADF596E2 /* CropDimView.swift */,
-				100BA2DD064D3B61447639018E2A8295 /* CropPickerView.swift */,
-				79B213F948E53D6A8AC4C2362477A398 /* CropView.swift */,
-				4787067848A092DAA191D0DC177722E9 /* LineButton.swift */,
-				F0F6027904C5CA0EDF8D85556B4CAFB4 /* NSLayoutConstraint+.swift */,
-				4D119B6BE79D958E16559222D3511777 /* UIImageView+.swift */,
-				7F0E64198E3C70850696831BC818A5B3 /* UIView+.swift */,
-				822762BB0F4113BE3B9FDB081DE10276 /* Support Files */,
+				E0E39710EC12A4D9BE1B703073DF0CA2 /* Foundation.framework */,
 			);
-			name = CropPickerView;
-			path = CropPickerView;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FAEEA9D93BA9EE0B05CA7854A6722A11 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6B2529658735B2503E3A62B3496AE8B6 /* CropPickerController.podspec */,
+				DD6A704F74D4AF9724EB061B3ACE759F /* LICENSE */,
+				E141CC29825B534AD4E066A16974FEAF /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		730310B306449AEB6705398783B09416 /* Headers */ = {
+		05D45EEC9F73049FD71CAD9A36F353BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B5CA7D9FEF6E8C2E93E9217130F34EA /* CropPickerController-umbrella.h in Headers */,
+				77A41860F9AC2EFADB531EC2928A5F80 /* Pods-CropPickerController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3BFD0F864F0304339FD279850DADE5A /* Headers */ = {
+		0FF70704C9A293FC4F2F81C849E66F49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23A9264234AFE46779520E1D22DCECE6 /* Pods-CropPickerController_Example-umbrella.h in Headers */,
+				C16AD19945399E0757EAA9457FB3D61C /* Pods-CropPickerController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D50E07E8FFE49C8DA3F03A7477889F6C /* Headers */ = {
+		293CF7D839E58F34C0D1FC86FD119100 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E451CFD32DDA6A052044A3DE1A2FB01 /* CropPickerView-umbrella.h in Headers */,
+				FBF6FD91F9D9DB85D6444DD8702417E8 /* CropPickerController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDE2990C16F826836F61090286C448E2 /* Headers */ = {
+		8F24772BBEB17556E641248DBB520EFF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D1921634112AD4CD67BE335202A57A /* Pods-CropPickerController_Tests-umbrella.h in Headers */,
+				266B044174FFED7C34FBA9F263228E79 /* CropPickerView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,18 +402,18 @@
 /* Begin PBXNativeTarget section */
 		ACBB14B8840FC5BACE637F2B399AC56E /* Pods-CropPickerController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B09D025B882D166367AD64258FC47B7 /* Build configuration list for PBXNativeTarget "Pods-CropPickerController_Example" */;
+			buildConfigurationList = 8A61092991CD12849B4E4ACCDD480561 /* Build configuration list for PBXNativeTarget "Pods-CropPickerController_Example" */;
 			buildPhases = (
-				D3BFD0F864F0304339FD279850DADE5A /* Headers */,
-				299DD59995F7E0392263A8F6DDC92758 /* Sources */,
-				F45D60586EF1CA5537C8641C9E0A7084 /* Frameworks */,
-				FF3A770F1D0CFB8F15A7B9D4BCAC157B /* Resources */,
+				05D45EEC9F73049FD71CAD9A36F353BD /* Headers */,
+				556B2903BBBBC47764E2F374AED8303D /* Sources */,
+				F70E8EA381239AD0A98E8E8428EDF20D /* Frameworks */,
+				98EE6505CD347C0ACCAE827345EF7F12 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E33D424B7608719905FADDAB9F632ECA /* PBXTargetDependency */,
-				7837CD1C5AFC57E8CD9B3EB83EE90A79 /* PBXTargetDependency */,
+				50B18F9F8AB1EB4A94E785C5D36AFC17 /* PBXTargetDependency */,
+				C7C29235FB1F5BFF610CF7B82A22A8C9 /* PBXTargetDependency */,
 			);
 			name = "Pods-CropPickerController_Example";
 			productName = "Pods-CropPickerController_Example";
@@ -413,12 +422,12 @@
 		};
 		B2E82C663A10701CE6B794CFF6CCFA17 /* CropPickerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E90CD3133B7431BBF2A1604D0FDC1B4 /* Build configuration list for PBXNativeTarget "CropPickerView" */;
+			buildConfigurationList = 4D48D523151FD959DE0BA5B8555F6998 /* Build configuration list for PBXNativeTarget "CropPickerView" */;
 			buildPhases = (
-				D50E07E8FFE49C8DA3F03A7477889F6C /* Headers */,
-				B13184F6563B7E40FC076CC19002A4FD /* Sources */,
-				55C2F3D357E527B3197A6AA16CF9AEFD /* Frameworks */,
-				1DCA41D68BE3EE3829CC3984FF04E940 /* Resources */,
+				8F24772BBEB17556E641248DBB520EFF /* Headers */,
+				A93E32595BAD79302881E630771549FD /* Sources */,
+				F1197D53B37AD3FD19517BCBA1A9DC5D /* Frameworks */,
+				D49FD7A1B0B7245E97C95D3EED50F7B5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -431,17 +440,17 @@
 		};
 		D086B0BD56478F65CFD6E1E9664B12BB /* Pods-CropPickerController_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2B5CF007F36BC770964FE2EDAAB64EF /* Build configuration list for PBXNativeTarget "Pods-CropPickerController_Tests" */;
+			buildConfigurationList = C2619B0F1165EA2684D26290102021B2 /* Build configuration list for PBXNativeTarget "Pods-CropPickerController_Tests" */;
 			buildPhases = (
-				FDE2990C16F826836F61090286C448E2 /* Headers */,
-				D0CE8380BDD889446339FB796C568172 /* Sources */,
-				64D07BAA1A17FDA78F5A6E8E58752BEA /* Frameworks */,
-				E91156296209433D3C6C98CE6AFE694E /* Resources */,
+				0FF70704C9A293FC4F2F81C849E66F49 /* Headers */,
+				8E822514C98A07943F8039A7EDA93630 /* Sources */,
+				E0538B1404445B17EB2BDD085A5F727A /* Frameworks */,
+				373480C1E9E466BED8C48251E61C6257 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				077597C07D37D6EDFB3262DD99F73B59 /* PBXTargetDependency */,
+				B626538F8DBDAF0087DB7D184005147C /* PBXTargetDependency */,
 			);
 			name = "Pods-CropPickerController_Tests";
 			productName = "Pods-CropPickerController_Tests";
@@ -450,17 +459,17 @@
 		};
 		DA8CB5B763724E48B49A1ED6999E069B /* CropPickerController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB8AAD81EA6B4104282FECAF7CE24438 /* Build configuration list for PBXNativeTarget "CropPickerController" */;
+			buildConfigurationList = 9794C070D88DBCD40EBFD05BA7DEE4F5 /* Build configuration list for PBXNativeTarget "CropPickerController" */;
 			buildPhases = (
-				730310B306449AEB6705398783B09416 /* Headers */,
-				4B588A22504EC2A9FCF28500EC9ACD6F /* Sources */,
-				04D9F788EA4135E22F766170AD6980EA /* Frameworks */,
-				3157E92EC571C4E6B942B78A1E5D609E /* Resources */,
+				293CF7D839E58F34C0D1FC86FD119100 /* Headers */,
+				B47FF37833E638D639B1F045FC9C5D3B /* Sources */,
+				64A76BF15BEA5D887AD80B2882D8A18F /* Frameworks */,
+				45F34C392E008339C073179D078412D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D713AFED41C568D831AB13EA73CFAF5E /* PBXTargetDependency */,
+				814B6100749D447716C1E7BC2DEC89CF /* PBXTargetDependency */,
 			);
 			name = CropPickerController;
 			productName = CropPickerController;
@@ -474,7 +483,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -482,6 +491,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = DD0A225787EEC94891F05ACDC608E1FF /* Products */;
@@ -497,28 +507,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1DCA41D68BE3EE3829CC3984FF04E940 /* Resources */ = {
+		373480C1E9E466BED8C48251E61C6257 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3157E92EC571C4E6B942B78A1E5D609E /* Resources */ = {
+		45F34C392E008339C073179D078412D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E91156296209433D3C6C98CE6AFE694E /* Resources */ = {
+		98EE6505CD347C0ACCAE827345EF7F12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF3A770F1D0CFB8F15A7B9D4BCAC157B /* Resources */ = {
+		D49FD7A1B0B7245E97C95D3EED50F7B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -528,126 +538,96 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		299DD59995F7E0392263A8F6DDC92758 /* Sources */ = {
+		556B2903BBBBC47764E2F374AED8303D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CDB56BE6A824142D247740640FCF15C /* Pods-CropPickerController_Example-dummy.m in Sources */,
+				0C334BF226A3F32720CEAA7146EE5505 /* Pods-CropPickerController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B588A22504EC2A9FCF28500EC9ACD6F /* Sources */ = {
+		8E822514C98A07943F8039A7EDA93630 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13030B69F8ED402305FCDAA495C2E854 /* ArrowView.swift in Sources */,
-				708B23268A828582DFB54BA468EF139A /* BezierPath+.swift in Sources */,
-				009AEE47955863E8EB5ADE9CC16ECC4A /* CameraView.swift in Sources */,
-				8B0E9AB8F691BF2C8749E2E381076E06 /* CheckBoxView.swift in Sources */,
-				82931543A4122BFE8C153BC72D330790 /* CheckView.swift in Sources */,
-				76D9ED0372C4A1D35AA160EECCF987FD /* CropPickerController-dummy.m in Sources */,
-				3B5C18BBB27C50ADFD5C4C1DE7DEC61D /* CropPickerController.swift in Sources */,
-				76BB2B1A0D558E9116ABCA79928B9C6B /* Double+.swift in Sources */,
-				76AB0C957378958B5BFCB8DB034734C4 /* ImageAsset.swift in Sources */,
-				CCE7BB5CC62A936A90D7EB71022F318A /* PermissionHelper.swift in Sources */,
-				E8B261AFE2D065803D9FC7831BF62823 /* PictureCell.swift in Sources */,
-				6D76439A862E54242D82E76A8F55F0D2 /* ProgressView.swift in Sources */,
-				4B78156019247BF58927E970651994E8 /* TitleButton.swift in Sources */,
-				4EC2BBCF293D4B4306F1AEC08233A263 /* UIImage+.swift in Sources */,
-				28CE058D2916F0505C73D8C30F982976 /* UIView+.swift in Sources */,
+				445947E6672CA956C68B4A1F9048FAEE /* Pods-CropPickerController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B13184F6563B7E40FC076CC19002A4FD /* Sources */ = {
+		A93E32595BAD79302881E630771549FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54443ABD5E3AABD3A1421DEDFB66C222 /* BezierPath+.swift in Sources */,
-				C94F86B35C365F2910163BDC8D7D9F94 /* CropDimView.swift in Sources */,
-				75D2344B014D6CFB230BCAD48D904B60 /* CropPickerView-dummy.m in Sources */,
-				0E09B1F5B4BCF53CC79B79253B8E1E0F /* CropPickerView.swift in Sources */,
-				7637CEAD538E3745850684F187054C37 /* CropView.swift in Sources */,
-				BEFFF0A5F977C1AF8B233EC2B90BA291 /* LineButton.swift in Sources */,
-				B85CFF34ACE278B7596ACEAC2E7096A4 /* NSLayoutConstraint+.swift in Sources */,
-				31A09BEFE5C3DC294929495C9A3BBFD7 /* UIImageView+.swift in Sources */,
-				A56BEA30896DC5BCCD0CC068874C8F58 /* UIView+.swift in Sources */,
+				C2BE97815FD094FA1F3031F0B8B4D2D7 /* BezierPath+.swift in Sources */,
+				8A5DA96548C5D39C2CABA3AE9CEF3EF1 /* CropDimView.swift in Sources */,
+				B14A88233992D8D78ECB7F9777476212 /* CropPickerView-dummy.m in Sources */,
+				13C504F0649C9888F9ABA8EC79E59433 /* CropPickerView.swift in Sources */,
+				5F533B86F3820B00EE8CD10502117CA9 /* CropResult.swift in Sources */,
+				F038841FB49C70CBC248837E2D3B5DD3 /* CropView.swift in Sources */,
+				AAF5C8786DD0FF28608B62FEDBCAFB6D /* LineButton.swift in Sources */,
+				1505E9E568B4D20FE1A35FDE6648502E /* NSLayoutConstraint+.swift in Sources */,
+				CCA50BD3B62FE48D6C59C425E4686B3E /* UIImage+.swift in Sources */,
+				5ECBA0CFD1BBFBD484CF8FA438809DA5 /* UIImageView+.swift in Sources */,
+				A36542041C3834CCC2A8A5235AEFE20B /* UIView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0CE8380BDD889446339FB796C568172 /* Sources */ = {
+		B47FF37833E638D639B1F045FC9C5D3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C99F60190F3E754293571A9C485BE63 /* Pods-CropPickerController_Tests-dummy.m in Sources */,
+				D960DEA029ED77752A32714F9371B15C /* ArrowView.swift in Sources */,
+				2A9BD54F9513718CCC3CB2225DA5F977 /* BezierPath+.swift in Sources */,
+				F7891DC4B4167EF9EDA7945E5527C843 /* CameraView.swift in Sources */,
+				32D67CFA299EEA2E0ABE348D2D273C45 /* CheckBoxView.swift in Sources */,
+				81BDB2D1BCF0F24304AE6FF5BFBDD3EF /* CheckView.swift in Sources */,
+				BE104D4B2A81BA1C6810238AA83E2430 /* CropPickerController-dummy.m in Sources */,
+				4408D5FE6A70E3DCD8AE3E852D6D4BAC /* CropPickerController.swift in Sources */,
+				6BE41EB4BAABFAE5D60F0B3875D6A6B6 /* Double+.swift in Sources */,
+				FB4A44F9F6CDEE4465735376DDED71C2 /* ImageAsset.swift in Sources */,
+				426521D9A0CD123179883A4EA856915F /* PermissionHelper.swift in Sources */,
+				03BF8081A9BA3019A1ADEA27C9FA516A /* PictureCell.swift in Sources */,
+				D25B708F89751D74034E633759F682B0 /* ProgressView.swift in Sources */,
+				6436EF50418AE8278AB6EE36EFB107A3 /* TitleButton.swift in Sources */,
+				3BFDECEA245D133E6AC704802AA29E2D /* UIImage+.swift in Sources */,
+				74F2261C7693B11EAB2DEACB3F30CF24 /* UIView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		077597C07D37D6EDFB3262DD99F73B59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CropPickerController_Example";
-			target = ACBB14B8840FC5BACE637F2B399AC56E /* Pods-CropPickerController_Example */;
-			targetProxy = 8773EE18D800E005C32155543C37011A /* PBXContainerItemProxy */;
-		};
-		7837CD1C5AFC57E8CD9B3EB83EE90A79 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CropPickerView;
-			target = B2E82C663A10701CE6B794CFF6CCFA17 /* CropPickerView */;
-			targetProxy = 5BEB8126F17971824995F6F179E9CF19 /* PBXContainerItemProxy */;
-		};
-		D713AFED41C568D831AB13EA73CFAF5E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CropPickerView;
-			target = B2E82C663A10701CE6B794CFF6CCFA17 /* CropPickerView */;
-			targetProxy = 481BC098A934B15AAB0C5E961A6348B9 /* PBXContainerItemProxy */;
-		};
-		E33D424B7608719905FADDAB9F632ECA /* PBXTargetDependency */ = {
+		50B18F9F8AB1EB4A94E785C5D36AFC17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CropPickerController;
 			target = DA8CB5B763724E48B49A1ED6999E069B /* CropPickerController */;
-			targetProxy = 3D8C80574C2A53650794C423B900567A /* PBXContainerItemProxy */;
+			targetProxy = 8FF8622FF5A638C032A9D8F991246DE0 /* PBXContainerItemProxy */;
+		};
+		814B6100749D447716C1E7BC2DEC89CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CropPickerView;
+			target = B2E82C663A10701CE6B794CFF6CCFA17 /* CropPickerView */;
+			targetProxy = A061CA3E320B376C54ABE5A8171E2E55 /* PBXContainerItemProxy */;
+		};
+		B626538F8DBDAF0087DB7D184005147C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CropPickerController_Example";
+			target = ACBB14B8840FC5BACE637F2B399AC56E /* Pods-CropPickerController_Example */;
+			targetProxy = 1C4B738395E5DBDCE493DA0FF9AD7843 /* PBXContainerItemProxy */;
+		};
+		C7C29235FB1F5BFF610CF7B82A22A8C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CropPickerView;
+			target = B2E82C663A10701CE6B794CFF6CCFA17 /* CropPickerView */;
+			targetProxy = 9DC2B051ACCC1C609577DFE607701E72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		49F3CCF61489978705BBC08636CDF644 /* Debug */ = {
+		07E26CF759EDB1C09282E650D4699002 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E283CB1795F5AC2EFD425E0EF0D7B2D /* CropPickerController.xcconfig */;
+			baseConfigurationReference = 1CC01F2D822AD36C7C66B108E28CA063 /* CropPickerView.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CropPickerController/CropPickerController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CropPickerController/CropPickerController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CropPickerController/CropPickerController.modulemap";
-				PRODUCT_MODULE_NAME = CropPickerController;
-				PRODUCT_NAME = CropPickerController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5E7B10C12505C126049A718AA072F44B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E40D4B1F9C4766E34F3F0281931479 /* CropPickerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -659,7 +639,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CropPickerView/CropPickerView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CropPickerView/CropPickerView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CropPickerView/CropPickerView.modulemap";
 				PRODUCT_MODULE_NAME = CropPickerView;
@@ -674,12 +654,11 @@
 			};
 			name = Debug;
 		};
-		8448F0396DF7AC9A3DD63B89E7BA123E /* Debug */ = {
+		174055987ABB614BBDCE3DB8FFBF3E21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86F7C40E847FE2B31A3B6B8DC781A9EC /* Pods-CropPickerController_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -690,7 +669,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CropPickerController_Example/Pods-CropPickerController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CropPickerController_Example/Pods-CropPickerController_Example.modulemap";
@@ -707,76 +686,11 @@
 			};
 			name = Debug;
 		};
-		92EEBEC06BE349CDF19197513FFCC2D2 /* Release */ = {
+		1A86ACB67B000104F82725CF4DBDED51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E40D4B1F9C4766E34F3F0281931479 /* CropPickerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CropPickerView/CropPickerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CropPickerView/CropPickerView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CropPickerView/CropPickerView.modulemap";
-				PRODUCT_MODULE_NAME = CropPickerView;
-				PRODUCT_NAME = CropPickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9575AE36DE0525FD6D722D453C3DF40C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E283CB1795F5AC2EFD425E0EF0D7B2D /* CropPickerController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CropPickerController/CropPickerController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CropPickerController/CropPickerController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CropPickerController/CropPickerController.modulemap";
-				PRODUCT_MODULE_NAME = CropPickerController;
-				PRODUCT_NAME = CropPickerController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A7007D4EBD13F690C2285B3E257B8504 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35E043F319DCB1D42878A17910A37DAF /* Pods-CropPickerController_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8015AF418CD8BD60ABD6A060607CF2D2 /* Pods-CropPickerController_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -785,12 +699,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CropPickerController_Tests/Pods-CropPickerController_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CropPickerController_Example/Pods-CropPickerController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CropPickerController_Tests/Pods-CropPickerController_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CropPickerController_Example/Pods-CropPickerController_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -799,15 +713,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -830,6 +746,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -852,22 +769,121 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		4CE04F4CE5690F4E32AF3282A7CC88B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3109E9A9AF1422577D0ED75FF6B04E /* CropPickerController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CropPickerController/CropPickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropPickerController/CropPickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.2.0;
+				MODULEMAP_FILE = "Target Support Files/CropPickerController/CropPickerController.modulemap";
+				PRODUCT_MODULE_NAME = CropPickerController;
+				PRODUCT_NAME = CropPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D7A3E633318EC0B0F583FFBC9AAF1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830EDAF7670067624DB46ADC71D74602 /* Pods-CropPickerController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CropPickerController_Tests/Pods-CropPickerController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CropPickerController_Tests/Pods-CropPickerController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53B5527C1AF37476080A21618665E8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B97F55FAC7C2D9CAF1106586E52DA341 /* CropPickerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CropPickerView/CropPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropPickerView/CropPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CropPickerView/CropPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CropPickerView;
+				PRODUCT_NAME = CropPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -890,6 +906,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -915,7 +932,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -925,15 +943,16 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		CBCA1067BDFE1C6966A49FFE65F3CC2F /* Release */ = {
+		BFE36E418321F02D1CB2EBB7BDC2317B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 830EDAF7670067624DB46ADC71D74602 /* Pods-CropPickerController_Tests.release.xcconfig */;
+			baseConfigurationReference = 35E043F319DCB1D42878A17910A37DAF /* Pods-CropPickerController_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -944,7 +963,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CropPickerController_Tests/Pods-CropPickerController_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CropPickerController_Tests/Pods-CropPickerController_Tests.modulemap";
@@ -956,18 +975,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		F68DFA46F5503F543A0D82150BA3DE97 /* Release */ = {
+		ED37644ACE3DB5B8BC88A13552E288C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8015AF418CD8BD60ABD6A060607CF2D2 /* Pods-CropPickerController_Example.release.xcconfig */;
+			baseConfigurationReference = 156DA1D8BD60FD48BF9B4520AEC1CAB8 /* CropPickerController.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -976,70 +992,69 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CropPickerController_Example/Pods-CropPickerController_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CropPickerController/CropPickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CropPickerController/CropPickerController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CropPickerController_Example/Pods-CropPickerController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MARKETING_VERSION = 0.2.0;
+				MODULEMAP_FILE = "Target Support Files/CropPickerController/CropPickerController.modulemap";
+				PRODUCT_MODULE_NAME = CropPickerController;
+				PRODUCT_NAME = CropPickerController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E90CD3133B7431BBF2A1604D0FDC1B4 /* Build configuration list for PBXNativeTarget "CropPickerView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E7B10C12505C126049A718AA072F44B /* Debug */,
-				92EEBEC06BE349CDF19197513FFCC2D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B09D025B882D166367AD64258FC47B7 /* Build configuration list for PBXNativeTarget "Pods-CropPickerController_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8448F0396DF7AC9A3DD63B89E7BA123E /* Debug */,
-				F68DFA46F5503F543A0D82150BA3DE97 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB8AAD81EA6B4104282FECAF7CE24438 /* Build configuration list for PBXNativeTarget "CropPickerController" */ = {
+		4D48D523151FD959DE0BA5B8555F6998 /* Build configuration list for PBXNativeTarget "CropPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49F3CCF61489978705BBC08636CDF644 /* Debug */,
-				9575AE36DE0525FD6D722D453C3DF40C /* Release */,
+				07E26CF759EDB1C09282E650D4699002 /* Debug */,
+				53B5527C1AF37476080A21618665E8A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2B5CF007F36BC770964FE2EDAAB64EF /* Build configuration list for PBXNativeTarget "Pods-CropPickerController_Tests" */ = {
+		8A61092991CD12849B4E4ACCDD480561 /* Build configuration list for PBXNativeTarget "Pods-CropPickerController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7007D4EBD13F690C2285B3E257B8504 /* Debug */,
-				CBCA1067BDFE1C6966A49FFE65F3CC2F /* Release */,
+				174055987ABB614BBDCE3DB8FFBF3E21 /* Debug */,
+				1A86ACB67B000104F82725CF4DBDED51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9794C070D88DBCD40EBFD05BA7DEE4F5 /* Build configuration list for PBXNativeTarget "CropPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED37644ACE3DB5B8BC88A13552E288C1 /* Debug */,
+				4CE04F4CE5690F4E32AF3282A7CC88B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2619B0F1165EA2684D26290102021B2 /* Build configuration list for PBXNativeTarget "Pods-CropPickerController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE36E418321F02D1CB2EBB7BDC2317B /* Debug */,
+				4D7A3E633318EC0B0F583FFBC9AAF1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
